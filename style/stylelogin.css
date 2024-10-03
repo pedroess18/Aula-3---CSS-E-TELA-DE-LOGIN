@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: teal;
+}
+
+/* primeiro trabalhar com sombra horizontal -
+segunda trabalha com a sobra vertical -
+trabalha com o Bluor -
+cor propriamente dita  */
+
+.conteudoLogin{
+    background-color: #D3D3D3;
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    opacity: 0.8;
+    text-align: center;
+    padding: 10px;
+}
+
+/* .conteudoLogin, h1 */ 
+/* a gente chama todos */
+
+/* .conteudoLogin div */
+/* Eu chamo o ultimo elemento */
+
+
+/* .conteudoLogin > div  */
+/* Chama o filho */
+
+.conteudoLogin > div,label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.conteudoLogin>div,input {
+    width: 80%;
+}
+
+.conteudoLogin>div,button {
+    width: 80%;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.conteudoLogin>div,button:hover{
+    background-color: rgb(224, 255, 24);
+    color: #fdfdfd;
+    font-weight: 600;
+}

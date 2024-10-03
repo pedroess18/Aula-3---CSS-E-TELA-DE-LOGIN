@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: #f90;
+    margin: 5px;
+    padding: 5px;
+}
+
+ body {
+    background-image: url(https://cdn.leonardo.ai/users/18fbe2f8-8342-4b17-a4c5-bd1fb87c50fa/generations/270168b0-adf0-4623-a902-03fd69a0d1f5/Leonardo_Kino_XL_create_a_big_tower_in_the_center_image_and_th_1.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.conteudo {
+background-image: linear-gradient(purple, white, blue);
+height: 200px;
+width: 200px;
+margin: 20px auto;
+border: 2px solid turquoise;
+display: inline-block;
+}
+
+.conteudoNovo {
+    height: 100;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
